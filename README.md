@@ -1,1 +1,1 @@
-# appsmith_repo
+# Dine Diary AppSmith
