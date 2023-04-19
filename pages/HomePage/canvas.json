@@ -158,7 +158,8 @@
                   "isDisabled": false,
                   "index": 0,
                   "menuItems": {},
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "onClick": "{{navigateTo('Add User', {},'NEW_WINDOW')}}"
                 },
                 "groupButton2": {
                   "label": "Delete User",
@@ -178,7 +179,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 13.5,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "groupButtons.groupButton1.onClick"
+                }
+              ],
               "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
