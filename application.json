@@ -1,0 +1,27 @@
+{
+  "pages": [
+    {
+      "id": "HomePage",
+      "isDefault": true
+    },
+    {
+      "id": "Restaurant Info",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#EAEDFB",
+  "icon": "shopper",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
