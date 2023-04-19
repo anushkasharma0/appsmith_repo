@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Update Rating",
-    "slug": "update-rating",
+    "name": "Update Bio 2",
+    "slug": "update-bio-2",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 540,
           "containerStyle": "none",
           "snapRows": 75,
           "parentRowSpace": 1,
@@ -36,9 +36,9 @@
                 "click",
                 "submit"
               ],
-              "topRow": 34,
-              "bottomRow": 38,
-              "tooltip": "Updates rating of restaurant in your Dine Diary",
+              "topRow": 50,
+              "bottomRow": 54,
+              "tooltip": "Update Profile Bio",
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -60,7 +60,7 @@
               "isDeprecated": false,
               "rightColumn": 58,
               "isDefaultClickDisabled": true,
-              "widgetId": "wap7oik5vi",
+              "widgetId": "94psdbr303",
               "minWidth": 120,
               "isVisible": true,
               "recaptchaType": "V3",
@@ -69,68 +69,12 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
-              "originalTopRow": 42,
+              "originalTopRow": 35,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 46,
+              "originalBottomRow": 39,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
-            },
-            {
-              "widgetName": "Text3",
-              "displayName": "Text",
-              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-              "searchTags": [
-                "typography",
-                "paragraph",
-                "label"
-              ],
-              "topRow": 15,
-              "bottomRow": 19,
-              "parentRowSpace": 10,
-              "type": "TEXT_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "overflow": "NONE",
-              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "parentColumnSpace": 13.5,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 1,
-              "dynamicBindingPathList": [
-                {
-                  "key": "truncateButtonColor"
-                },
-                {
-                  "key": "fontFamily"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "shouldTruncate": false,
-              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Restaurant Information",
-              "key": "ee8po5qx1v",
-              "isDeprecated": false,
-              "rightColumn": 21,
-              "textAlign": "LEFT",
-              "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "x3i4hjpyru",
-              "minWidth": 450,
-              "isVisible": true,
-              "fontStyle": "BOLD",
-              "textColor": "#219ebc",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "originalTopRow": 15,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "originalBottomRow": 19,
-              "fontSize": "1.25rem",
-              "minDynamicHeight": 4
             },
             {
               "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
@@ -188,9 +132,9 @@
               "labelTextSize": "1rem",
               "isDeprecated": false,
               "rightColumn": 21,
-              "widgetId": "wllvo365lb",
+              "widgetId": "9y2ranchiv",
               "minWidth": 450,
-              "label": "Name",
+              "label": "Username",
               "parentId": "0",
               "labelAlignment": "left",
               "renderMode": "CANVAS",
@@ -257,9 +201,9 @@
               "labelTextSize": "1rem",
               "isDeprecated": false,
               "rightColumn": 21,
-              "widgetId": "ozws4e3g7x",
+              "widgetId": "nuz41b2mcb",
               "minWidth": 450,
-              "label": "New Rating",
+              "label": "First Name",
               "parentId": "0",
               "labelAlignment": "left",
               "renderMode": "CANVAS",
@@ -271,6 +215,200 @@
               "minDynamicHeight": 4
             },
             {
+              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+              "onSubmit": "",
+              "topRow": 33,
+              "labelWidth": 5,
+              "type": "INPUT_WIDGET_V2",
+              "animateLoading": true,
+              "resetOnSubmit": true,
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelStyle": "BOLD",
+              "inputType": "NUMBER",
+              "isDisabled": false,
+              "isRequired": true,
+              "dynamicHeight": "FIXED",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "showStepArrows": false,
+              "isVisible": true,
+              "version": 2,
+              "onFocus": "",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 33,
+              "widgetName": "Username_InputCopyCopy",
+              "dynamicPropertyPathList": [],
+              "displayName": "Input",
+              "searchTags": [
+                "form",
+                "text input",
+                "number",
+                "textarea"
+              ],
+              "bottomRow": 40,
+              "parentRowSpace": 10,
+              "autoFocus": false,
+              "hideCard": false,
+              "parentColumnSpace": 13.5,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onSubmit"
+                }
+              ],
+              "labelPosition": "Top",
+              "labelTextColor": "#ffb703",
+              "key": "oa55j6ee6x",
+              "labelTextSize": "1rem",
+              "isDeprecated": false,
+              "rightColumn": 21,
+              "widgetId": "ccs2dt4k4h",
+              "minWidth": 450,
+              "label": "Last Name",
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "responsiveBehavior": "fill",
+              "originalTopRow": 26,
+              "maxDynamicHeight": 9000,
+              "iconAlign": "left",
+              "defaultText": "",
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+              "onSubmit": "",
+              "topRow": 41,
+              "labelWidth": 5,
+              "type": "INPUT_WIDGET_V2",
+              "animateLoading": true,
+              "resetOnSubmit": true,
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelStyle": "BOLD",
+              "inputType": "NUMBER",
+              "isDisabled": false,
+              "isRequired": true,
+              "dynamicHeight": "FIXED",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "showStepArrows": false,
+              "isVisible": true,
+              "version": 2,
+              "onFocus": "",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 33,
+              "widgetName": "Username_InputCopyCopyCopy",
+              "dynamicPropertyPathList": [],
+              "displayName": "Input",
+              "searchTags": [
+                "form",
+                "text input",
+                "number",
+                "textarea"
+              ],
+              "bottomRow": 48,
+              "parentRowSpace": 10,
+              "autoFocus": false,
+              "hideCard": false,
+              "parentColumnSpace": 13.5,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onSubmit"
+                }
+              ],
+              "labelPosition": "Top",
+              "labelTextColor": "#ffb703",
+              "key": "oa55j6ee6x",
+              "labelTextSize": "1rem",
+              "isDeprecated": false,
+              "rightColumn": 21,
+              "widgetId": "r7uvdi0pld",
+              "minWidth": 450,
+              "label": "Updated Profile Bio",
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "responsiveBehavior": "fill",
+              "originalTopRow": 26,
+              "maxDynamicHeight": 9000,
+              "iconAlign": "left",
+              "defaultText": "",
+              "minDynamicHeight": 4
+            },
+            {
+              "widgetName": "Text3",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 15,
+              "bottomRow": 19,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 13.5,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "User Information",
+              "key": "ee8po5qx1v",
+              "isDeprecated": false,
+              "rightColumn": 21,
+              "textAlign": "LEFT",
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "0wsx7pqa3a",
+              "minWidth": 450,
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#219ebc",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 15,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 19,
+              "fontSize": "1.25rem",
+              "minDynamicHeight": 4
+            },
+            {
               "widgetName": "Text1",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
@@ -279,8 +417,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 1,
-              "bottomRow": 8,
+              "topRow": 2,
+              "bottomRow": 9,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -306,13 +444,13 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Update Rating",
+              "text": "Update Restaurant Rating",
               "key": "ee8po5qx1v",
               "isDeprecated": false,
               "rightColumn": 58,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "t3sjuze9tt",
+              "widgetId": "jcbpw0r0q9",
               "minWidth": 450,
               "isVisible": true,
               "fontStyle": "BOLD",
@@ -322,10 +460,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 1,
+              "originalTopRow": 2,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 8,
+              "originalBottomRow": 9,
               "fontSize": "3rem",
               "minDynamicHeight": 4
             },
@@ -338,7 +476,7 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 8,
+              "topRow": 9,
               "bottomRow": 13,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
@@ -362,13 +500,13 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Thoughts changed? Tried the food again? Menu changed?\nUpdate your rating here!",
+              "text": "Input the restaurant into the tracker",
               "key": "ee8po5qx1v",
               "isDeprecated": false,
               "rightColumn": 43,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "alt78w2hts",
+              "widgetId": "f1p8djag9w",
               "minWidth": 450,
               "isVisible": true,
               "fontStyle": "BOLD,ITALIC",
@@ -378,7 +516,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 8,
+              "originalTopRow": 9,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
               "originalBottomRow": 13,
@@ -390,7 +528,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Update Rating",
+        "id": "Update Bio 2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -401,5 +539,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "643f0b0b24e3b61452ed1106_6440110d24e3b61452ed23fc"
+  "gitSyncId": "643f0b0b24e3b61452ed1106_64401880687d2c3120d3f00c"
 }

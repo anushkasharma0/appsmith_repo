@@ -27,6 +27,18 @@
     {
       "id": "Update Bio",
       "isDefault": false
+    },
+    {
+      "id": "Delete Restaurant 2",
+      "isDefault": false
+    },
+    {
+      "id": "Update Rating 2",
+      "isDefault": false
+    },
+    {
+      "id": "Update Bio 2",
+      "isDefault": false
     }
   ],
   "viewMode": false,
