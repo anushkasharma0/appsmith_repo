@@ -239,7 +239,7 @@
               "onFocus": "",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 60,
+              "originalBottomRow": 36,
               "widgetName": "Input1Copy2Copy",
               "dynamicPropertyPathList": [],
               "displayName": "Input",
@@ -272,7 +272,7 @@
               "labelAlignment": "left",
               "renderMode": "CANVAS",
               "responsiveBehavior": "fill",
-              "originalTopRow": 53,
+              "originalTopRow": 29,
               "maxDynamicHeight": 9000,
               "iconAlign": "left",
               "defaultText": "",
@@ -378,20 +378,20 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
-              "originalTopRow": 82,
+              "originalTopRow": 45,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 86,
+              "originalBottomRow": 49,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
             {
-              "boxShadow": "none",
+              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
               "widgetName": "Select1",
               "isFilterable": true,
               "displayName": "Select",
               "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-              "labelText": "Label",
+              "labelText": "Reason for Deletion",
               "searchTags": [
                 "dropdown"
               ],
@@ -402,7 +402,7 @@
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
               "hideCard": false,
-              "defaultOptionValue": "GREEN",
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `INACTIVITY`))(Select1.options, Select1.serverSideFiltering) }}",
               "animateLoading": true,
               "parentColumnSpace": 13.5,
               "dynamicTriggerPathList": [],
@@ -413,17 +413,22 @@
                 },
                 {
                   "key": "borderRadius"
+                },
+                {
+                  "key": "defaultOptionValue"
                 }
               ],
               "labelPosition": "Top",
-              "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]",
+              "options": "[\n  {\n    \"label\": \"I'm concerned about my privacy\",\n    \"value\": \"PRIVACY\"\n  },\n  {\n    \"label\": \"I don't find the platform useful or I don't like the user interface or experience\",\n    \"value\": \"DISSATISFIED\"\n  },\n  {\n    \"label\": \"I have personal reasons for wanting to delete my profile\",\n    \"value\": \"PERSONAL\"\n  },\n\t  {\n    \"label\": \"I am concerned about the security of my personal information on the platform\",\n    \"value\": \"SECURITY\"\n  },\n\t{\n    \"label\": \"I have not been active on the platform for a long time or I no longer have a need for Dine Diary's services\",\n    \"value\": \"INACTIVITY\"\n  }\n]",
+              "labelStyle": "BOLD",
+              "labelTextColor": "#ffb703",
               "placeholderText": "Select option",
               "isDisabled": false,
               "key": "ezlht8gtlf",
-              "labelTextSize": "0.875rem",
+              "labelTextSize": "1rem",
               "isRequired": false,
               "isDeprecated": false,
-              "rightColumn": 21,
+              "rightColumn": 58,
               "dynamicHeight": "FIXED",
               "widgetId": "clbuilf42u",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -435,8 +440,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
+              "originalTopRow": 37,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
+              "originalBottomRow": 44,
               "minDynamicHeight": 4
             }
           ]

@@ -171,7 +171,7 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "originalBottomRow": 28,
-              "widgetName": "Username",
+              "widgetName": "Username_Input",
               "dynamicPropertyPathList": [],
               "displayName": "Input",
               "searchTags": [
@@ -240,7 +240,7 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "originalBottomRow": 28,
-              "widgetName": "Input1Copy2",
+              "widgetName": "Email_Input",
               "dynamicPropertyPathList": [],
               "displayName": "Input",
               "searchTags": [
@@ -309,7 +309,7 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "originalBottomRow": 68,
-              "widgetName": "Input1Copy2Copy1",
+              "widgetName": "Profile_Bio_Input",
               "dynamicPropertyPathList": [],
               "displayName": "Input",
               "searchTags": [
@@ -378,7 +378,7 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "originalBottomRow": 28,
-              "widgetName": "Input1Copy2Copy",
+              "widgetName": "Password_Input",
               "dynamicPropertyPathList": [],
               "displayName": "Input",
               "searchTags": [
@@ -447,7 +447,7 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "originalBottomRow": 28,
-              "widgetName": "Input1Copy1",
+              "widgetName": "Last_Name_Input",
               "dynamicPropertyPathList": [],
               "displayName": "Input",
               "searchTags": [
@@ -516,7 +516,7 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "originalBottomRow": 28,
-              "widgetName": "Input1Copy",
+              "widgetName": "First_Name_Input",
               "dynamicPropertyPathList": [],
               "displayName": "Input",
               "searchTags": [

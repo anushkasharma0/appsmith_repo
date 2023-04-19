@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 420,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -36,7 +36,7 @@
                 "label"
               ],
               "topRow": 3,
-              "bottomRow": 19,
+              "bottomRow": 11,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -75,7 +75,7 @@
               "originalTopRow": 3,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 11,
+              "originalBottomRow": 19,
               "fontSize": "3.75rem",
               "minDynamicHeight": 4
             },
@@ -88,8 +88,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 19,
-              "bottomRow": 23,
+              "topRow": 11,
+              "bottomRow": 15,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -125,10 +125,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 11,
+              "originalTopRow": 19,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 15,
+              "originalBottomRow": 23,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -143,8 +143,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 28,
-              "bottomRow": 42,
+              "topRow": 20,
+              "bottomRow": 34,
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton1": {
@@ -172,7 +172,8 @@
                   "isDisabled": false,
                   "index": 1,
                   "menuItems": {},
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "onClick": "{{navigateTo('Delete User', {},'NEW_WINDOW')}}"
                 }
               },
               "type": "BUTTON_GROUP_WIDGET",
@@ -182,6 +183,9 @@
               "dynamicTriggerPathList": [
                 {
                   "key": "groupButtons.groupButton1.onClick"
+                },
+                {
+                  "key": "groupButtons.groupButton2.onClick"
                 }
               ],
               "leftColumn": 0,
@@ -213,9 +217,9 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 }
               },
-              "originalTopRow": 20,
+              "originalTopRow": 28,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 34,
+              "originalBottomRow": 42,
               "buttonVariant": "PRIMARY"
             },
             {
@@ -229,8 +233,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 28,
-              "bottomRow": 42,
+              "topRow": 20,
+              "bottomRow": 34,
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton1": {
@@ -244,7 +248,8 @@
                   "isDisabled": false,
                   "index": 0,
                   "menuItems": {},
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "onClick": "{{navigateTo('Add Restaurant', {},'NEW_WINDOW')}}"
                 },
                 "groupButton2": {
                   "label": "Delete Restaurant",
@@ -257,14 +262,22 @@
                   "isDisabled": false,
                   "index": 1,
                   "menuItems": {},
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "onClick": "{{navigateTo('Delete Restaurant', {},'NEW_WINDOW')}}"
                 }
               },
               "type": "BUTTON_GROUP_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 13.5,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "groupButtons.groupButton1.onClick"
+                },
+                {
+                  "key": "groupButtons.groupButton2.onClick"
+                }
+              ],
               "leftColumn": 21,
               "dynamicBindingPathList": [
                 {
@@ -294,9 +307,9 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 }
               },
-              "originalTopRow": 20,
+              "originalTopRow": 28,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 34
+              "originalBottomRow": 42
             },
             {
               "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
@@ -309,8 +322,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 28,
-              "bottomRow": 42,
+              "topRow": 20,
+              "bottomRow": 34,
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton1": {
@@ -324,7 +337,8 @@
                   "isDisabled": false,
                   "index": 0,
                   "menuItems": {},
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "onClick": "{{navigateTo('Update Rating', {},'NEW_WINDOW')}}"
                 },
                 "groupButton2": {
                   "label": "Update User Bio",
@@ -337,14 +351,22 @@
                   "isDisabled": false,
                   "index": 1,
                   "menuItems": {},
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "onClick": "{{navigateTo('Update Bio', {},'NEW_WINDOW')}}"
                 }
               },
               "type": "BUTTON_GROUP_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 13.5,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "groupButtons.groupButton1.onClick"
+                },
+                {
+                  "key": "groupButtons.groupButton2.onClick"
+                }
+              ],
               "leftColumn": 42,
               "dynamicBindingPathList": [
                 {

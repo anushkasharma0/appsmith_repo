@@ -1,0 +1,11 @@
+INSERT INTO users
+  (username, first_name, last_name, email, profile_bio, password)
+VALUES
+  (
+    {{ Username_Input.inputText }},
+    {{ First_Name_Input.inputText}},
+    {{ Last_Name_Input.inputText}},
+		{{ Email_Input.inputText}},
+		{{ Profile_Bio_Input.inputText}},
+		{{ Password_Input.inputText}}
+  );
