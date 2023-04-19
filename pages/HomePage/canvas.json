@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 420,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -36,7 +36,7 @@
                 "label"
               ],
               "topRow": 3,
-              "bottomRow": 11,
+              "bottomRow": 19,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -75,7 +75,7 @@
               "originalTopRow": 3,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 19,
+              "originalBottomRow": 11,
               "fontSize": "3.75rem",
               "minDynamicHeight": 4
             },
@@ -88,8 +88,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 11,
-              "bottomRow": 15,
+              "topRow": 19,
+              "bottomRow": 23,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -125,10 +125,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 19,
+              "originalTopRow": 11,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 23,
+              "originalBottomRow": 15,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -143,8 +143,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 20,
-              "bottomRow": 34,
+              "topRow": 28,
+              "bottomRow": 42,
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton1": {
@@ -217,9 +217,9 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 }
               },
-              "originalTopRow": 28,
+              "originalTopRow": 20,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 42,
+              "originalBottomRow": 34,
               "buttonVariant": "PRIMARY"
             },
             {
@@ -233,8 +233,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 20,
-              "bottomRow": 34,
+              "topRow": 28,
+              "bottomRow": 42,
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton1": {
@@ -307,9 +307,9 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 }
               },
-              "originalTopRow": 28,
+              "originalTopRow": 20,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 42
+              "originalBottomRow": 34
             },
             {
               "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
@@ -352,7 +352,7 @@
                   "index": 1,
                   "menuItems": {},
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "onClick": "{{navigateTo('Update Bio', {},'NEW_WINDOW')}}"
+                  "onClick": "{{navigateTo('Update Bio', {}, 'SAME_WINDOW')}}"
                 }
               },
               "type": "BUTTON_GROUP_WIDGET",
