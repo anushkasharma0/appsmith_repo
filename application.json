@@ -27,6 +27,10 @@
     {
       "id": "Update Bio",
       "isDefault": false
+    },
+    {
+      "id": "User Table",
+      "isDefault": false
     }
   ],
   "viewMode": false,
