@@ -7,6 +7,26 @@
     {
       "id": "Add User",
       "isDefault": false
+    },
+    {
+      "id": "Delete User",
+      "isDefault": false
+    },
+    {
+      "id": "Add Restaurant",
+      "isDefault": false
+    },
+    {
+      "id": "Delete Restaurant",
+      "isDefault": false
+    },
+    {
+      "id": "Update Rating",
+      "isDefault": false
+    },
+    {
+      "id": "Update Bio",
+      "isDefault": false
     }
   ],
   "viewMode": false,

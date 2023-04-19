@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Add User",
-    "slug": "add-user",
+    "name": "Delete User",
+    "slug": "delete-user",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 490,
           "containerStyle": "none",
           "snapRows": 75,
           "parentRowSpace": 1,
@@ -61,7 +61,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Add a User to Dine Diary",
+              "text": "Delete User",
               "key": "ee8po5qx1v",
               "isDeprecated": false,
               "rightColumn": 43,
@@ -117,7 +117,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Input the user's information below to begin using the restaurant tracker",
+              "text": "Remove the user's profile from Dine Diary",
               "key": "ee8po5qx1v",
               "isDeprecated": false,
               "rightColumn": 43,
@@ -171,7 +171,7 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "originalBottomRow": 28,
-              "widgetName": "Username",
+              "widgetName": "Input1",
               "dynamicPropertyPathList": [],
               "displayName": "Input",
               "searchTags": [
@@ -213,145 +213,7 @@
               "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
               "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
               "onSubmit": "",
-              "topRow": 45,
-              "labelWidth": 5,
-              "type": "INPUT_WIDGET_V2",
-              "animateLoading": true,
-              "resetOnSubmit": true,
-              "leftColumn": 1,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "labelStyle": "BOLD",
-              "inputType": "EMAIL",
-              "isDisabled": false,
-              "isRequired": true,
-              "dynamicHeight": "FIXED",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "showStepArrows": false,
-              "isVisible": true,
-              "version": 2,
-              "onFocus": "",
-              "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 28,
-              "widgetName": "Input1Copy2",
-              "dynamicPropertyPathList": [],
-              "displayName": "Input",
-              "searchTags": [
-                "form",
-                "text input",
-                "number",
-                "textarea"
-              ],
-              "bottomRow": 52,
-              "parentRowSpace": 10,
-              "autoFocus": false,
-              "hideCard": false,
-              "parentColumnSpace": 13.5,
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onSubmit"
-                }
-              ],
-              "labelPosition": "Top",
-              "labelTextColor": "#ffb703",
-              "key": "oa55j6ee6x",
-              "labelTextSize": "1rem",
-              "isDeprecated": false,
-              "rightColumn": 21,
-              "widgetId": "xmeao33jum",
-              "minWidth": 450,
-              "label": "Email Address",
-              "parentId": "0",
-              "labelAlignment": "left",
-              "renderMode": "CANVAS",
-              "responsiveBehavior": "fill",
-              "originalTopRow": 21,
-              "maxDynamicHeight": 9000,
-              "iconAlign": "left",
-              "defaultText": "",
-              "minDynamicHeight": 4
-            },
-            {
-              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-              "onSubmit": "",
-              "topRow": 61,
-              "labelWidth": 5,
-              "type": "INPUT_WIDGET_V2",
-              "animateLoading": true,
-              "resetOnSubmit": true,
-              "leftColumn": 1,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "labelStyle": "BOLD",
-              "inputType": "MULTI_LINE_TEXT",
-              "isDisabled": false,
-              "isRequired": false,
-              "dynamicHeight": "AUTO_HEIGHT",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "showStepArrows": false,
-              "isVisible": true,
-              "version": 2,
-              "onFocus": "",
-              "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 68,
-              "widgetName": "Input1Copy2Copy1",
-              "dynamicPropertyPathList": [],
-              "displayName": "Input",
-              "searchTags": [
-                "form",
-                "text input",
-                "number",
-                "textarea"
-              ],
-              "bottomRow": 72,
-              "parentRowSpace": 10,
-              "autoFocus": false,
-              "hideCard": false,
-              "parentColumnSpace": 13.5,
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onSubmit"
-                }
-              ],
-              "labelPosition": "Top",
-              "labelTextColor": "#ffb703",
-              "key": "oa55j6ee6x",
-              "labelTextSize": "1rem",
-              "isDeprecated": false,
-              "rightColumn": 21,
-              "widgetId": "eew2v5xtl6",
-              "minWidth": 450,
-              "label": "Profile Bio",
-              "parentId": "0",
-              "labelAlignment": "left",
-              "renderMode": "CANVAS",
-              "responsiveBehavior": "fill",
-              "originalTopRow": 61,
-              "maxDynamicHeight": 9000,
-              "iconAlign": "left",
-              "defaultText": "",
-              "minDynamicHeight": 4
-            },
-            {
-              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-              "onSubmit": "",
-              "topRow": 53,
+              "topRow": 29,
               "labelWidth": 5,
               "type": "INPUT_WIDGET_V2",
               "animateLoading": true,
@@ -377,146 +239,8 @@
               "onFocus": "",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 28,
+              "originalBottomRow": 60,
               "widgetName": "Input1Copy2Copy",
-              "dynamicPropertyPathList": [],
-              "displayName": "Input",
-              "searchTags": [
-                "form",
-                "text input",
-                "number",
-                "textarea"
-              ],
-              "bottomRow": 60,
-              "parentRowSpace": 10,
-              "autoFocus": false,
-              "hideCard": false,
-              "parentColumnSpace": 13.5,
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onSubmit"
-                }
-              ],
-              "labelPosition": "Top",
-              "labelTextColor": "#ffb703",
-              "key": "oa55j6ee6x",
-              "labelTextSize": "1rem",
-              "isDeprecated": false,
-              "rightColumn": 21,
-              "widgetId": "dsrgs86wjw",
-              "minWidth": 450,
-              "label": "Password",
-              "parentId": "0",
-              "labelAlignment": "left",
-              "renderMode": "CANVAS",
-              "responsiveBehavior": "fill",
-              "originalTopRow": 21,
-              "maxDynamicHeight": 9000,
-              "iconAlign": "left",
-              "defaultText": "",
-              "minDynamicHeight": 4
-            },
-            {
-              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-              "onSubmit": "",
-              "topRow": 37,
-              "labelWidth": 5,
-              "type": "INPUT_WIDGET_V2",
-              "animateLoading": true,
-              "resetOnSubmit": true,
-              "leftColumn": 1,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "labelStyle": "BOLD",
-              "inputType": "TEXT",
-              "isDisabled": false,
-              "isRequired": true,
-              "dynamicHeight": "FIXED",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "showStepArrows": false,
-              "isVisible": true,
-              "version": 2,
-              "onFocus": "",
-              "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 28,
-              "widgetName": "Input1Copy1",
-              "dynamicPropertyPathList": [],
-              "displayName": "Input",
-              "searchTags": [
-                "form",
-                "text input",
-                "number",
-                "textarea"
-              ],
-              "bottomRow": 44,
-              "parentRowSpace": 10,
-              "autoFocus": false,
-              "hideCard": false,
-              "parentColumnSpace": 13.5,
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onSubmit"
-                }
-              ],
-              "labelPosition": "Top",
-              "labelTextColor": "#ffb703",
-              "key": "oa55j6ee6x",
-              "labelTextSize": "1rem",
-              "isDeprecated": false,
-              "rightColumn": 21,
-              "widgetId": "oucy0cxmda",
-              "minWidth": 450,
-              "label": "Last Name",
-              "parentId": "0",
-              "labelAlignment": "left",
-              "renderMode": "CANVAS",
-              "responsiveBehavior": "fill",
-              "originalTopRow": 21,
-              "maxDynamicHeight": 9000,
-              "iconAlign": "left",
-              "defaultText": "",
-              "minDynamicHeight": 4
-            },
-            {
-              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-              "onSubmit": "",
-              "topRow": 29,
-              "labelWidth": 5,
-              "type": "INPUT_WIDGET_V2",
-              "animateLoading": true,
-              "resetOnSubmit": true,
-              "leftColumn": 1,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "labelStyle": "BOLD",
-              "inputType": "TEXT",
-              "isDisabled": false,
-              "isRequired": true,
-              "dynamicHeight": "FIXED",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "showStepArrows": false,
-              "isVisible": true,
-              "version": 2,
-              "onFocus": "",
-              "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 28,
-              "widgetName": "Input1Copy",
               "dynamicPropertyPathList": [],
               "displayName": "Input",
               "searchTags": [
@@ -541,14 +265,14 @@
               "labelTextSize": "1rem",
               "isDeprecated": false,
               "rightColumn": 21,
-              "widgetId": "1kd1e24irq",
+              "widgetId": "dsrgs86wjw",
               "minWidth": 450,
-              "label": "First Name",
+              "label": "Password",
               "parentId": "0",
               "labelAlignment": "left",
               "renderMode": "CANVAS",
               "responsiveBehavior": "fill",
-              "originalTopRow": 21,
+              "originalTopRow": 53,
               "maxDynamicHeight": 9000,
               "iconAlign": "left",
               "defaultText": "",
@@ -587,7 +311,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "User Information",
+              "text": "Find User",
               "key": "ee8po5qx1v",
               "isDeprecated": false,
               "rightColumn": 17,
@@ -611,57 +335,6 @@
               "minDynamicHeight": 4
             },
             {
-              "boxShadow": "none",
-              "widgetName": "FilePicker1",
-              "buttonColor": "#fb8500",
-              "displayName": "FilePicker",
-              "iconSVG": "/static/media/icon.7c5ad9c357928c6ff5701bf51a56c2e5.svg",
-              "searchTags": [
-                "upload"
-              ],
-              "topRow": 73,
-              "bottomRow": 77,
-              "parentRowSpace": 10,
-              "allowedFileTypes": [
-                "image/*",
-                "image/jpeg",
-                ".png"
-              ],
-              "type": "FILE_PICKER_WIDGET_V2",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 13.5,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 1,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "isDisabled": false,
-              "key": "p1dgm9ncnj",
-              "isRequired": false,
-              "isDeprecated": false,
-              "rightColumn": 17,
-              "isDefaultClickDisabled": true,
-              "widgetId": "u1mmu4b5wt",
-              "minWidth": 450,
-              "isVisible": true,
-              "label": "Upload Profile Picture",
-              "maxFileSize": "5",
-              "dynamicTyping": true,
-              "version": 1,
-              "fileDataType": "Base64",
-              "parentId": "0",
-              "selectedFiles": [],
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "files": [],
-              "maxNumFiles": 1
-            },
-            {
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button1",
@@ -672,8 +345,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 82,
-              "bottomRow": 86,
+              "topRow": 45,
+              "bottomRow": 49,
               "tooltip": "Submits User Information",
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
@@ -690,7 +363,7 @@
                   "key": "borderRadius"
                 }
               ],
-              "text": "Create User",
+              "text": "Delete User",
               "isDisabled": false,
               "key": "p31pvvzte0",
               "isDeprecated": false,
@@ -705,17 +378,73 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
+              "originalTopRow": 82,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 86,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Select1",
+              "isFilterable": true,
+              "displayName": "Select",
+              "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+              "labelText": "Label",
+              "searchTags": [
+                "dropdown"
+              ],
+              "topRow": 37,
+              "bottomRow": 44,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "SELECT_WIDGET",
+              "serverSideFiltering": false,
+              "hideCard": false,
+              "defaultOptionValue": "GREEN",
+              "animateLoading": true,
+              "parentColumnSpace": 13.5,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Top",
+              "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]",
+              "placeholderText": "Select option",
+              "isDisabled": false,
+              "key": "ezlht8gtlf",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 21,
+              "dynamicHeight": "FIXED",
+              "widgetId": "clbuilf42u",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             }
           ]
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Add User",
+        "id": "Delete User",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -726,5 +455,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "643f0b0b24e3b61452ed1106_643f60a7fab89e383409a8d0"
+  "gitSyncId": "643f0b0b24e3b61452ed1106_64400f3b5689b020f575aa78"
 }

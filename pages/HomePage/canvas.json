@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 420,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -36,7 +36,7 @@
                 "label"
               ],
               "topRow": 3,
-              "bottomRow": 11,
+              "bottomRow": 19,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -88,8 +88,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 11,
-              "bottomRow": 15,
+              "topRow": 19,
+              "bottomRow": 23,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -143,8 +143,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 20,
-              "bottomRow": 34,
+              "topRow": 28,
+              "bottomRow": 42,
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton1": {
@@ -229,8 +229,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 20,
-              "bottomRow": 34,
+              "topRow": 28,
+              "bottomRow": 42,
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton1": {
@@ -309,8 +309,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 20,
-              "bottomRow": 34,
+              "topRow": 28,
+              "bottomRow": 42,
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton1": {
