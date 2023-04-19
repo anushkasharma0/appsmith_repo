@@ -133,8 +133,8 @@
               "minDynamicHeight": 4
             },
             {
-              "boxShadow": "none",
-              "widgetName": "ButtonGroup1",
+              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+              "widgetName": "UserButtons",
               "isCanvas": false,
               "dynamicPropertyPathList": [],
               "displayName": "Button Group",
@@ -148,8 +148,8 @@
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton1": {
-                  "label": "Favorite",
-                  "iconName": "heart",
+                  "label": "Add User",
+                  "iconName": "user",
                   "id": "groupButton1",
                   "widgetId": "",
                   "buttonType": "SIMPLE",
@@ -161,8 +161,8 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 },
                 "groupButton2": {
-                  "label": "Add",
-                  "iconName": "add",
+                  "label": "Delete User",
+                  "iconName": "key-delete",
                   "id": "groupButton2",
                   "buttonType": "SIMPLE",
                   "placement": "CENTER",
@@ -171,54 +171,6 @@
                   "isDisabled": false,
                   "index": 1,
                   "menuItems": {},
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-                },
-                "groupButton3": {
-                  "label": "More",
-                  "iconName": "more",
-                  "id": "groupButton3",
-                  "buttonType": "MENU",
-                  "placement": "CENTER",
-                  "widgetId": "",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 2,
-                  "menuItems": {
-                    "menuItem1": {
-                      "label": "First Option",
-                      "backgroundColor": "#FFFFFF",
-                      "id": "menuItem1",
-                      "widgetId": "",
-                      "onClick": "",
-                      "isVisible": true,
-                      "isDisabled": false,
-                      "index": 0
-                    },
-                    "menuItem2": {
-                      "label": "Second Option",
-                      "backgroundColor": "#FFFFFF",
-                      "id": "menuItem2",
-                      "widgetId": "",
-                      "onClick": "",
-                      "isVisible": true,
-                      "isDisabled": false,
-                      "index": 1
-                    },
-                    "menuItem3": {
-                      "label": "Delete",
-                      "iconName": "trash",
-                      "iconColor": "#FFFFFF",
-                      "iconAlign": "right",
-                      "textColor": "#FFFFFF",
-                      "backgroundColor": "#DD4B34",
-                      "id": "menuItem3",
-                      "widgetId": "",
-                      "onClick": "",
-                      "isVisible": true,
-                      "isDisabled": false,
-                      "index": 2
-                    }
-                  },
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 }
               },
@@ -237,9 +189,6 @@
                 },
                 {
                   "key": "groupButtons.groupButton2.buttonColor"
-                },
-                {
-                  "key": "groupButtons.groupButton3.buttonColor"
                 }
               ],
               "key": "696x54fi9q",
@@ -259,8 +208,168 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 }
               },
+              "originalTopRow": 20,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "buttonVariant": "SECONDARY"
+              "originalBottomRow": 34,
+              "buttonVariant": "PRIMARY"
+            },
+            {
+              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+              "widgetName": "RestaurantButtons",
+              "isCanvas": false,
+              "dynamicPropertyPathList": [],
+              "displayName": "Button Group",
+              "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 20,
+              "bottomRow": 34,
+              "parentRowSpace": 10,
+              "groupButtons": {
+                "groupButton1": {
+                  "label": "Add Restaurant",
+                  "iconName": "locate",
+                  "id": "groupButton1",
+                  "widgetId": "",
+                  "buttonType": "SIMPLE",
+                  "placement": "CENTER",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 0,
+                  "menuItems": {},
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                },
+                "groupButton2": {
+                  "label": "Delete Restaurant",
+                  "iconName": "key-delete",
+                  "id": "groupButton2",
+                  "buttonType": "SIMPLE",
+                  "placement": "CENTER",
+                  "widgetId": "",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 1,
+                  "menuItems": {},
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                }
+              },
+              "type": "BUTTON_GROUP_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 13.5,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 21,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "groupButtons.groupButton1.buttonColor"
+                },
+                {
+                  "key": "groupButtons.groupButton2.buttonColor"
+                }
+              ],
+              "key": "696x54fi9q",
+              "orientation": "vertical",
+              "isDeprecated": false,
+              "rightColumn": 42,
+              "widgetId": "u2tymkoetp",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                }
+              },
+              "originalTopRow": 20,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 34
+            },
+            {
+              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+              "widgetName": "UpdateButtons",
+              "isCanvas": false,
+              "dynamicPropertyPathList": [],
+              "displayName": "Button Group",
+              "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 20,
+              "bottomRow": 34,
+              "parentRowSpace": 10,
+              "groupButtons": {
+                "groupButton1": {
+                  "label": "Update Rating",
+                  "iconName": "thumbs-up",
+                  "id": "groupButton1",
+                  "widgetId": "",
+                  "buttonType": "SIMPLE",
+                  "placement": "CENTER",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 0,
+                  "menuItems": {},
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                },
+                "groupButton2": {
+                  "label": "Update User Bio",
+                  "iconName": "social-media",
+                  "id": "groupButton2",
+                  "buttonType": "SIMPLE",
+                  "placement": "CENTER",
+                  "widgetId": "",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 1,
+                  "menuItems": {},
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                }
+              },
+              "type": "BUTTON_GROUP_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 13.5,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 42,
+              "dynamicBindingPathList": [
+                {
+                  "key": "groupButtons.groupButton1.buttonColor"
+                },
+                {
+                  "key": "groupButtons.groupButton2.buttonColor"
+                }
+              ],
+              "key": "696x54fi9q",
+              "orientation": "vertical",
+              "isDeprecated": false,
+              "rightColumn": 63,
+              "widgetId": "c7k0p4z9tt",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                }
+              },
+              "originalTopRow": 20,
+              "borderRadius": "0.375rem",
+              "originalBottomRow": 34,
+              "buttonVariant": "PRIMARY"
             }
           ]
         },
