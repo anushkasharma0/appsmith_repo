@@ -26,7 +26,7 @@
           "leftColumn": 0,
           "children": [
             {
-              "widgetName": "Text1",
+              "widgetName": "AddUserHeader",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -85,7 +85,7 @@
               "minDynamicHeight": 4
             },
             {
-              "widgetName": "Text2",
+              "widgetName": "AddUserSubheader",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -555,7 +555,7 @@
               "minDynamicHeight": 4
             },
             {
-              "widgetName": "Text3",
+              "widgetName": "UserInformation",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
               "searchTags": [
@@ -612,7 +612,7 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "FilePicker1",
+              "widgetName": "ProPic",
               "buttonColor": "#fb8500",
               "displayName": "FilePicker",
               "iconSVG": "/static/media/icon.7c5ad9c357928c6ff5701bf51a56c2e5.svg",
@@ -664,7 +664,7 @@
             {
               "resetFormOnClick": false,
               "boxShadow": "none",
-              "widgetName": "Button1",
+              "widgetName": "SubmitCreateUser",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
