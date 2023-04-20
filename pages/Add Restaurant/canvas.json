@@ -191,6 +191,7 @@
                       "boxShadow": "none",
                       "mobileBottomRow": 37,
                       "widgetName": "Button1",
+                      "onClick": "{{add_new_restaurant.run()}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -205,7 +206,11 @@
                       "hideCard": false,
                       "mobileRightColumn": 62,
                       "animateLoading": true,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 46,
                       "dynamicBindingPathList": [
                         {

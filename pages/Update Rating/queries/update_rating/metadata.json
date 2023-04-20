@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "delete_restaurant",
+    "name": "update_rating",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/r/restaurant/deleterestaurant/{{restaurantId.inputText}}"
+        "url": "web:4000/r/restaurant/updaterestaurantrating/{{restaurantId.text}}"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Delete Restaurant",
+    "pageId": "Update Rating",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{{update_restaurant_form.data}}",
       "bodyFormData": [],
-      "httpMethod": "DELETE",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -45,6 +45,9 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
+        "key": "body"
+      },
+      {
         "key": "datasourceUrl"
       }
     ],
@@ -52,14 +55,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "restaurantId.inputText"
+      "restaurantId.text",
+      "update_restaurant_form.data"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Delete Restaurant_delete_restaurant",
+  "id": "Update Rating_update_rating",
   "deleted": false,
-  "gitSyncId": "644063b8462ecb1d11bbc4cf_64409d20c211fe498fd0ae59"
+  "gitSyncId": "644063b8462ecb1d11bbc4cf_6440ada7c211fe498fd0ae5f"
 }
