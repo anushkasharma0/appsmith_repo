@@ -31,6 +31,10 @@
     {
       "id": "User Table",
       "isDefault": false
+    },
+    {
+      "id": "Restaurant Table",
+      "isDefault": false
     }
   ],
   "viewMode": false,
